@@ -1,5 +1,5 @@
 Feature: Kullanici uygulamayi cihaza yukler
 
-  @teknosa
+  // @teknosa
   Scenario: Kullanici teknosa uygulamasini cihaza yukler
     Given Kullanici uygulamayi yükler

@@ -30,7 +30,10 @@ public class Driver {
                     .setPlatformName("Android")
                     .setPlatformVersion("15.0")
                     .setAutomationName("UiAutomator2")
-                    .setApp("C:\\Users\\zeyne\\IdeaProjects\\AppiumNewVersion\\apps\\Teknosa – Alisveris, Teknoloji_7.2.6_APKPure.apk");
+                 // .setApp("C:\\Users\\zeyne\\IdeaProjects\\AppiumNewVersion\\apps\\Teknosa – Alisveris, Teknoloji_7.3.6_APKPure.apk")
+                    .setAppPackage("com.tmob.teknosa")
+                    .setAppActivity("com.tmob.teknosa.MainActivity")
+                    .setNoReset(false);
 
             if (ConfigReader.getProperty("platformName").equals("Android")) {
 
